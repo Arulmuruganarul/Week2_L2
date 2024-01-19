@@ -1,0 +1,32 @@
+1. Set up the HTML structure:
+   - Include the necessary meta tags.
+   - Link the external stylesheets (style.css and Splide.css).
+   - Add the HTML structure for the main container, navigation, card container, and image carousel.
+
+2. Set up the CSS styles:
+   - Define global styles.
+   - Set styles for the main container, card container, text container, image carousel, navigation, buttons, and other elements.
+   - Include media queries for responsive design.
+
+3. Add fonts:
+   - Link the Google Fonts for Inter, Montserrat, Noto Sans, and Sofia Sans.
+
+4. Include JavaScript libraries:
+   - Link the Splide.js library.
+
+5. Create the main JavaScript function:
+   - Use the DOMContentLoaded event listener to ensure that the DOM is fully loaded before executing JavaScript.
+   - Create a Splide instance with specific configuration options.
+
+6. Define JSON data:
+   - Create an array `jsonData` containing objects for each slide with information such as heading, description, price, image, and background color.
+
+7. Update the UI based on slider movement:
+   - Use the Splide 'moved' event to detect when the slider is moved.
+   - Determine the current index of the slider.
+   - Update the background color, heading, description, and price in the main container based on the current index.
+
+8. Execute the JavaScript:
+   - Mount the Splide instance.
+
+Note: The pseudocode provides an overview of the structure and logic used in your HTML and JavaScript code. Make sure to replace placeholders and adapt the pseudocode as needed for your specific requirements.
